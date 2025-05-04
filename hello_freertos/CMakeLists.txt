@@ -1,7 +1,7 @@
 # EDIT #########################################################################
 set(PICO_PLATFORM "rp2040")
 set(FREERTOS_PORT
-    "$ENV{HOME}/make-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040")
+    "../FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040")
 ################################################################################
 cmake_minimum_required(VERSION 3.13...3.27)
 
