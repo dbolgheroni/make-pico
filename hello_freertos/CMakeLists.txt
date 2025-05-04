@@ -5,7 +5,7 @@ set(FREERTOS_PORT
 ################################################################################
 cmake_minimum_required(VERSION 3.13...3.27)
 
-include(pico_sdk_import.cmake)
+include(../pico-sdk/pico_sdk_init.cmake)
 
 project(hello_freertos)
 
